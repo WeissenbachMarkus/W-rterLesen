@@ -34,7 +34,7 @@ public class lesen {
             br = new BufferedReader(new FileReader(FILENAME));
 
             while ((sCurrentLine = br.readLine()) != null) {
-               System.out.println( sCurrentLine.split(" ").length);
+               System.out.println("Anzahl Woerter:"+ sCurrentLine.split(" ").length);
                 
             }
 
