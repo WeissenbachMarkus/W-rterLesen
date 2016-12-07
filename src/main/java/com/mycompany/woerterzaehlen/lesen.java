@@ -18,18 +18,6 @@ import java.io.IOException;
 public class lesen {
 
     private static final String FILENAME = "C:\\Users\\weiss\\Desktop\\woerter.txt";
-
-    public static int zaehle(String derText, String gesuchtesWort){
-        int counter = 0;
-        String[] array = derText.split(" ");
-        
-        for(int i=0;i<array.length;i++){
-            if(array[i].equalsIgnoreCase(gesuchtesWort)){   // wort gefunden
-                counter++;  
-            }
-        }       
-        return counter;
-    }
     
     public static void main(String[] args) {
 
