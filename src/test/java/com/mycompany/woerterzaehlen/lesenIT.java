@@ -43,7 +43,7 @@ public class lesenIT {
     @Test
     public void testEinlesen() {
         System.out.println("einlesen");
-        lesen instance = new lesen();
+        Lesen instance = new Lesen();
         int expResult = 3;
         int result = instance.einlesen();
         assertEquals(expResult, result);
